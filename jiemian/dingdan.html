@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="../css/dingdan.css" />
+		<link rel="stylesheet" href="../css/index.css" />
+	</head>
+
+	<body>
+		<header>
+				<div class="con">
+					<ul>
+						<!-- <li>
+							<a href="#" data-reveal-id="myModal" data-animation="fade">登录</a>
+							<form action="rt.php" name="form">
+							<div id="myModal" class="reveal-modal">
+								<div class="dl-top">
+									<div class="dl-left">
+										<img src="img/dl_logo1.png">
+										<span class="dl-yhm">用户名</span>
+										<span class="dl-name">Name</span>
+										<input type="text" class="dl-user" />
+									</div>
+									<div class="dl-bottom">
+										<img src="img/dl_pass.png">
+										<span class="dl-yhm">密码</span>
+										<span class="dl-name">Password</span>
+										<input type="password" class="dl-user" />
+									</div>
+									<div class="dl-bt">
+										<input type="radio" class="dl-radio">
+										<span>记住密码</span>
+										<img src="img/dl-wj.png">
+										<a href="#">忘记密码</a>
+										<div></div>
+									</div>
+									<input type="submit" class="dl-dl1" value="登录">
+									<div class="dl-xian"></div>
+									<div class="dl-xian1"></div>
+									<input type="button" class="dl-zc1" value="立即注册">
+								</div>
+						
+							</div>
+							</form>
+						</li> -->
+						<li>
+							<a href="#" data-reveal-id="myModal1" data-animation="fade">注册</a>
+							<form action="rt.php" name="form">
+								<div id="myModal1" class="reveal-modal">
+									<div class="dl-top">
+										<div class="dl-left">
+											<img src="img/dl_logo1.png">
+											<span class="dl-yhm">用户名</span>
+											<span class="dl-name">Name</span>
+											<input type="text" class="dl-user" />
+										</div>
+										<div class="dl-bottom">
+											<img src="img/dl_pass.png">
+											<span class="dl-yhm">密码</span>
+											<span class="dl-name">Password</span>
+											<input type="password" class="dl-user" />
+										</div>
+										<input type="submit" class="dl-dl" value="登录">
+										<div class="dl-xian2"></div>
+										<div class="dl-xian3"></div>
+										<input type="button" id="btn" class="dl-zc" value="立即注册">
+									</div>
+
+								</div>
+							</form>
+						</li>
+						<li>
+							<a href="">我的收藏</a>
+						</li>
+						<li>
+							<a href="">购物车</a>
+						</li>
+					</ul>
+				</div>
+		</header>
+		<div class="nav">
+			<div class="con">
+				<ul>
+					<li><a href="../index.html">首页<br>Recommen</a>
+					</li>
+					<li><a href="xptj.html">精品推荐<br>New Arriv</a></li>
+					<li><a href="mzsx.html">每周上新<br>New week</a></li>
+					<!--<li><a href="">  </a></li>-->
+					<li><a href="products.html">全部商品<br>All goods</a></li>
+					<li><a href="zhuanti.html">活动专区<br>Acti zone</a></li>
+					<li><a href="ppjs.html">品牌介绍<br>PrefertE</a></li>
+				</ul>
+				<img src="../img/nav.jpg" alt="" />
+			</div>
+		</div>
+		
+
+		<div class="dd-kaishi"></div>
+		<div class="dd-bg">
+			<div class="dd-left"><img src="../img/dd.png"></div>
+			<div class="dd-right">
+				<span class="dd-hot1"><a href="gwc.html">查看购物车</a></span>
+				<span class="dd-hot"><a href="dingdan.html">填写订单</a></span>
+				<span class="dd-hot1"><a href="jsdd.html">结算订单</a></span>
+				<span class="dd-hot1"><a href="gwcg.html">订单完成</a></span>
+			</div>
+		</div>
+		
+
+		<div class="dd-nei">
+			<img src="../img/dd-dd.png">
+		</div>
+		
+
+		<div class="dd-middle">
+			<div class="dd-shdz">选择收货地址</div>
+			<div class="dd-xian">
+				<div class="dd-ls"></div>
+			</div>
+			<div class="dd-dz">
+				<label><input type="radio" name="dz">北京市 朝阳区  三里屯BD大厦A栋1008室   020004   李四   131-7584-6548</label>
+				<label><input type="radio" name="dz">河南省 郑州市  振兴区郑州科技大学  040021   张三   138-8759-5789</label>
+				<label><input type="radio" name="dz" checked="checked">山西省 太原市  小店区   平阳路学府街凯通大厦  048001   眼睛猫   176-8888-8888</label>
+			</div>
+			<div class="dd-xzdz">
+				<div>新增地址</div>
+				<div>+</div>
+			</div>
+			<div class="dd-xinjian">
+				<div class="dd-shdz">新建收货地址</div>
+				<div class="dd-xian">
+					<div class="dd-ls"></div>
+				</div>
+			</div>
+			<div class="dd-table">
+				<form action="ui.php" name="form1">
+					<table>
+						<tr>
+							<td align="right">新增收货地址</td>
+							<td class="dd-tablel">电话号码／手机号吗选填一项，其他均为必填项</td>
+						</tr>
+						<tr>
+							<td align="right">所在地区</td>
+							<td class="dd-tablel" height="80">
+								<select>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+								</select>
+								<input type="text" class="dd-input1" placeholder="请选择省市">
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top">详细地址</td>
+							<td class="dd-tablel" height="50"><textarea></textarea></td>
+						</tr>
+						<tr>
+							<td align="right">邮政编码</td>
+							<td class="dd-tablel" height="50">
+								<input type="text" class="dd-input2" placeholder="请选择省市">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">收货人姓名</td>
+							<td class="dd-tablel" height="50">
+								<input type="text" class="dd-input2" placeholder="请选择省市">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">手机号码</td>
+							<td class="dd-tablel" height="50">
+								<select>
+									<option>中国大陆+86</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+								</select>
+								<input type="text" class="dd-input1" placeholder="请选择省市">
+							</td>
+						</tr>
+						<tr>
+							<td align="right">电话号码</td>
+							<td class="dd-tablel" height="50">
+								<select>
+									<option>中国大陆+86</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+									<option>中国大陆</option>
+								</select>
+								<input type="text" class="dd-input1" placeholder="请选择省市">
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td>
+								<button type="submit">确认新增</button>
+								<div class="dd-bi"><img src="../img/dd-b1.png"></div>
+							</td>
+							<td>
+								<button type="reset">取消新增</button>
+								<div class="dd-bi"><img src="../img/dd-b2.png"></div>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			
+
+			<div class="dd-qrsp">
+				<div class="dd-shdz">新建收货地址</div>
+				<div class="dd-xian">
+					<div class="dd-ls"></div>
+				</div>
+				<form action="ui.php" name="form1">
+				<table width="1123" cellpadding="0" cellspacing="0">
+					<tr bgcolor="#EEEEEE">
+						<td height="35" align="center">商品信息</td>
+						<td align="center">单价信息</td>
+						<td align="center">数量信息</td>
+						<td align="center">小计信息</td>
+					</tr>
+					<tr>
+						<td height="215" align="center">
+							<div><img src="../img/dd-sp.png"></div>
+							<div>YY时尚手环<br>运动系列<br>炫酷黑色<br>2017N.1款</div>
+						</td>
+						<td align="center">¥ 599</td>
+						<td align="center">2</td>
+						<td align="center">¥ 1198</td>
+					</tr>
+					<tr>
+						<td colspan="4" align="right"><!-- <button type="submit" > --><a href="jsdd.html"><img src="../img/dd-js.png"></a><!-- </button> --></td>
+					</tr>
+				</table>
+				</form>
+			</div>
+		</div>
+		
+
+        <footer>
+				<img src="../img/nav.jpg" alt="">
+				<div class="con">
+					<ul class="cantain">
+						<li>
+							<div>无忧售后</div>
+							<p>Senior coach team withinter national</p>
+							<div class="dd">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+
+							<ul>
+								<li>
+									<img src="../img/images/dssy_49.png" alt=""> 7天无忧退换
+								</li>
+								<li>
+									<img src="../img/images/dssy_51.png" alt=""> 三日包退
+								</li>
+								<li>
+									<img src="../img/images/dssy_39.png" alt=""> 15日保修
+								</li>
+								<li>
+									<img src="../img/images/dssy_54.png" alt=""> 一年服务
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div>在线客服</div>
+							<p>Senior coach team </p>
+							<div class="dd">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+							<ul>
+								<li>
+									<img src="../img/images/dssy_56.png" alt=""> 7天无忧退换
+								</li>
+								<li>
+									<img src="../img/images/dssy_56.png" alt=""> 三日包退
+								</li>
+								<li>
+									<img src="../img/images/dssy_56.png" alt=""> 15日保修
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div>支付方法</div>
+							<p>Senior coach team withinter national</p>
+							<div class="dd">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+							<ul>
+								<li>
+									<img src="../img/images/dssy_44.png" alt=""> 支付宝支付
+								</li>
+								<li>
+									<img src="../img/images/dssy_46.png" alt=""> 第三方支付
+								</li>
+								<li>
+									<img src="../img/images/dssy_62.png" alt=""> 在线支付
+								</li>
+								<li>
+									<img src="../img/images/dssy_64.png" alt=""> 银行卡支付
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<div class="wz">
+						© 2003-2017 TMALL.COM 版权所有<br> 2003-2017 Senior coach team with coach team <br>with team with
+
+					</div>
+				</div>
+			</footer>
+	</body>
+
+</html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/iconfont.css">
+		<link rel="stylesheet" href="css/dingdan.css" />
+		<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	</head>
+
+	<body>
+		<!DOCTYPE html>
+		<html lang="en">
+
+		<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="css/index.css">
+		</head>
+
+		<body>
+			<header>
+				<div class="con">
+					<ul>
+						<li>
+							<a href="#" data-reveal-id="myModal" data-animation="fade">登录</a>
+							<form action="login_ok.php" name="form" method="post">
+								<div id="myModal" class="reveal-modal">
+									<div class="dl-top">
+										<div class="dl-left">
+											<img src="img/dl_logo1.png">
+											<span class="dl-yhm">用户名</span>
+											<span class="dl-name">Name</span>
+											<input type="text" class="dl-user" name="username" />
+										</div>
+										<div class="dl-bottom">
+											<img src="img/dl_pass.png">
+											<span class="dl-yhm">密码</span>
+											<span class="dl-name">Password</span>
+											<input type="password" class="dl-user" name="password" />
+										</div>
+										<div class="dl-bt">
+											<input type="radio" class="dl-radio">
+											<span>记住密码</span>
+											<img src="img/dl-wj.png">
+											<a href="#">忘记密码</a>
+											<div></div>
+										</div>
+										<input type="submit" class="dl-dl1" value="登录">
+										<div class="dl-xian"></div>
+										<div class="dl-xian1"></div>
+										<input type="button" class="dl-zc1" value="立即注册">
+									</div>
+
+								</div>
+							</form>
+						</li>
+						<li>
+							<a href="#" data-reveal-id="myModal1" data-animation="fade">注册</a>
+							<form action="register_ok.php" name="form" method="post">
+								<div id="myModal1" class="reveal-modal1">
+									<div class="dl-top">
+										<div class="dl-left">
+											<img src="img/dl_logo1.png">
+											<span class="dl-yhm">用户名</span>
+											<span class="dl-name">Name</span>
+											<input type="text" class="dl-user" name="tb_name" required />
+										</div>
+										<div class="zc-yx">
+											<img src="img/zc-email.png">
+											<span class="dl-yhm">邮箱</span>
+											<span class="zc-email">Email</span>
+											<input type="email" class="dl-user" name="tb_email" required />
+										</div>
+										<div class="dl-bottom">
+											<img src="img/dl_pass.png">
+											<span class="dl-yhm">密码</span>
+											<span class="dl-name">Password</span>
+											<input type="password" class="dl-user" name="tb_pass" required />
+										</div>
+										<div class="zc-yx">
+											<img src="img/dl_pass.png">
+											<span class="dl-yhm">确认密码</span>
+											<span class="zc-name">Password</span>
+											<input type="password" class="dl-user" name="re-pwd" required />
+										</div>
+										<input type="submit" class="dl-dl" value="登录">
+										<div class="dl-xian2"></div>
+										<div class="dl-xian3"></div>
+										<input type="submit" id="btn" class="dl-zc" value="立即注册">
+									</div>
+
+								</div>
+							</form>
+						</li>
+						<li>
+							<a href="">我的收藏</a>
+						</li>
+						<li>
+							<a href="">购物车</a>
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			<div class="nav">
+				<div class="con">
+					<ul>
+						<li style="background: #09E1AE">
+							<a href="index.html">首页<br>Recommen</a>
+						</li>
+						<li>
+							<a href="jiemian/xptj.html">精品推荐<br>New Arriv</a>
+						</li>
+						<li>
+							<a href="jiemian/mzsx.html">每周上新<br>New week</a>
+						</li>
+						<li>
+							<a href="jiemian/products.html">全部商品<br>All goods</a>
+						</li>
+						<li>
+							<a href="jiemian/zhuanti.html">活动专区<br>Acti zone</a>
+						</li>
+						<li>
+							<a href="jiemian/ppjs.html">品牌介绍<br>PrefertE</a>
+						</li>
+					</ul>
+					<img src="img/nav.jpg" alt="" />
+				</div>
+			</div>
+
+			<div class="banner">
+				<section id="rt-showcase-surround">
+					<div id="rt-showcase" class="slider-container rt-overlay-dark">
+						<div class="rt-container slider-container">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+								<!--[if IE]><link rel="stylesheet" href="css/dingdan.css"><![endif]-->
+								<!--[if lte IE 9]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+								<div class="csslider1 autoplay">
+									<input name="cs_anchor1" autocomplete="off" id="cs_slide1_0" type="radio" class="cs_anchor slide">
+									<input name="cs_anchor1" autocomplete="off" id="cs_slide1_1" type="radio" class="cs_anchor slide">
+									<input name="cs_anchor1" autocomplete="off" id="cs_slide1_2" type="radio" class="cs_anchor slide">
+									<input name="cs_anchor1" autocomplete="off" id="cs_play1" type="radio" class="cs_anchor" checked>
+									<input name="cs_anchor1" autocomplete="off" id="cs_pause1" type="radio" class="cs_anchor">
+									<ul>
+										<div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+											<img src="img/banner.jpg" style="width: 100%;">
+										</div>
+										<li class="num0 img">
+											<img src="img/banner.jpg" alt="任性618" title="任性618" />
+										</li>
+										<li class="num1 img">
+											<img src="img/banner1.jpg" alt="WELOOP" title="WELOOP" />
+										</li>
+										<li class="num2 img">
+											<img src="img/banner2.jpg" alt="全天24小时" title="全天24小时" />
+										</li>
+
+									</ul>
+									<div class="cs_description">
+										<label class="num0">
+								<span class="cs_title"><span class="cs_wrapper">YY运动手环网站</span></span>
+								
+							</label>
+										<label class="num1">
+								<span class="cs_title"><span class="cs_wrapper">YY运动手环网站</span></span>
+								
+							</label>
+										<label class="num2">
+								<span class="cs_title"><span class="cs_wrapper">YY运动手环网站</span></span>
+								
+							</label>
+									</div>
+
+									<div class="cs_arrowprev">
+										<label class="num0" for="cs_slide1_0"></label>
+										<label class="num1" for="cs_slide1_1"></label>
+										<label class="num2" for="cs_slide1_2"></label>
+									</div>
+									<div class="cs_arrownext">
+										<label class="num0" for="cs_slide1_0"></label>
+										<label class="num1" for="cs_slide1_1"></label>
+										<label class="num2" for="cs_slide1_2"></label>
+									</div>
+
+									<div class="cs_bullets">
+										<label class="num0" for="cs_slide1_0">
+								        <span class="cs_point"></span>
+							            </label>
+										<label class="num1" for="cs_slide1_1">
+								        <span class="cs_point"></span>
+							            </label>
+										<label class="num2" for="cs_slide1_2">
+								        <span class="cs_point"></span>
+							         </label>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</section>
+				<!-- /slider -->
+			</div>
+
+			<div class="youhq">
+				<div class="left">
+					<div class="r1"></div>
+					<div class="c1">元优惠券</div>
+					<div class="c2">满199元使用</div>
+					<div class="bottom">立即领取</div>
+				</div>
+				<div class="left">
+					<div class="r1"></div>
+					<div class="c1">元优惠券</div>
+					<div class="c2">满199元使用</div>
+					<div class="bottom">立即领取</div>
+				</div>
+				<div class="left">
+					<div class="r1"></div>
+					<div class="c1">元优惠券</div>
+					<div class="c2">满199元使用</div>
+					<div class="bottom">立即领取</div>
+				</div>
+			</div>
+
+			<div class="jptj">
+				<div class="con">
+					<img src="img/jptj.jpg" alt="" />
+
+					<div class="chanp">
+						<a href="jiemian/cpxq.html">
+						<div class="left">
+							<img src="img/tj.png" alt="" />
+							<div class="hg">
+								<img class="hgl" src="img/tj.png" alt="" />
+								<img class="hgrs" src="img/tj1.png" alt="" />
+								<div class="xuanze">
+									<i class="iconfont icon-gouwuche"></i>
+									<i class="iconfont icon-xin"></i>
+									<i class="iconfont icon-fangdajing"></i>
+								</div>
+							</div>
+						</div>
+						</a>
+						<a href="jiemian/cpxq.html">
+						<div class="left">
+							<img src="img/tj.png" alt="" />
+							<div class="hg">
+								<img class="hgl" src="img/tj.png" alt="" />
+								<img class="hgrs" src="img/tj1.png" alt="" />
+								<div class="xuanze">
+									<i class="iconfont icon-gouwuche"></i>
+									<i class="iconfont icon-xin"></i>
+									<i class="iconfont icon-fangdajing"></i>
+								</div>
+							</div>
+						</div>
+						</a>
+						<a href="jiemian/cpxq.html">
+						<div class="left">
+							<img src="img/tj.png" alt="" />
+							<div class="hg">
+								<img class="hgl" src="img/tj.png" alt="" />
+								<img class="hgrs" src="img/tj1.png" alt="" />
+								<div class="xuanze">
+									<i class="iconfont icon-gouwuche"></i>
+									<i class="iconfont icon-xin"></i>
+									<i class="iconfont icon-fangdajing"></i>
+								</div>
+							</div>
+						</div>
+						</a>
+						<div class="beijing"></div>
+					</div>
+
+					<div class="cpxq">
+						<div class="left">
+							<div class="top">
+								<img src="img/cpxq_03.png" alt="" />
+								<p>轻薄流线</p>
+								<p>巧妙利用人视觉误差，将手环弧形底部紧贴皮肤，符合人体工学设计理念。利用弧形边框，消除手环粗犷厚重的视觉印象、令手环视觉厚度薄到惊人的5.6mm。这一刻，可能我们重新定义了手环。巧妙利用人视觉误差 将手环弧形底部紧贴皮肤，符合人体工学设计理念。利用弧形边框，消除手环粗犷厚重的视觉印象、令手环视觉厚度薄到惊人的5.6mm。这一刻，可能我们重新定义了手环。
+
+								</p>
+								<p>Clever use of human visual error, the bottom of the bracelet curved skin, in line with ergonomic design concept. The use of curved frame, eliminating the rough rough visual impression error</p>
+							</div>
+							<div class="top top1">
+								<img src="img/cpxq_07.png" alt="" />
+								<p></p>
+								<p>N°1，智能手环支持活动、锻炼、睡眠等模式，可以记录营养情况，拥有智能闹钟、健康提醒等功能。其内置的电池可以坚持10天，振动马达非常实用。其简约的设计风格也可以起到饰品的装饰作用。</p>
+								<p>N degrees 1, full of feminine charm of the incarnation. The classic bottle minimalist lines, a classic bottle and sexy minimalist lines, elegant fragrant bouque fragrant bouquet, a timeless perfume.
+
+								</p>
+
+								<img src="img/cpxq_15.png" />
+								<div class="gwc">购物车</div>
+								<div class="scj">收藏夹</div>
+							</div>
+						</div>
+
+						<div class="left right">
+							<img src="img/cpxq_16.png" alt="" />
+
+							<div class="top">
+								<img src="img/cpxq_11.png" alt="" />
+								<p>颜值担当</p>
+								<p>搭扣、腕带、机身，三者连接处大胆采用末内注塑工艺，将三种异质材料融为一体，给人以前所未有的视觉统一
+								</p>
+								<p>Hasp, wrist strap, body, the three connections at the end of the injection molding process, the integration visual unity</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom">
+					<ul>
+						<li>
+							<img src="img/images/sy_03.png" alt="">
+							<div></div>
+							<p>定位</p>
+						</li>
+						<li>
+							<img src="img/images/sy_05.png" alt="">
+							<div></div>
+							<p>计步</p>
+						</li>
+						<li>
+							<img src="img/images/sy_07.png" alt="">
+							<div></div>
+							<p>卡路里</p>
+						</li>
+						<li>
+							<img src="img/images/sy_10.png" alt="">
+							<div></div>
+							<p>睡眠</p>
+						</li>
+						<li>
+							<img src="img/images/sy_12.png" alt="">
+							<div></div>
+							<p>闹钟</p>
+						</li>
+						<li>
+							<img src="img/images/sy_14.png" alt="">
+							<div></div>
+							<p>来电</p>
+						</li>
+
+					</ul>
+
+				</div>
+				<div class="xian"></div>
+			</div>
+
+			<div class="mzsx">
+			    <img src="img/images/sy_23.png" alt="">
+			    <div class="con">
+			        <div class="top">
+			            <a href="jiemian/cpxq.html">
+			            <img src="img/images/dssy_07.png" alt="">
+			            <img src="img/images/dssy_03.png" alt="">
+			            </a>
+			            <div>
+			                <p><span>N°1 运动系列   </span> YAYA时尚手环 </p>
+			                <p>N five 1 five perfume series Chanel No.</p>
+			                <p>N°1，自动识别跑步、骑行、攀登、篮球、一系列户外户内活动多中模式，无需额外手动操作</p>
+			                <img src="img/cpxq_15.png" alt="">
+			                <a href="jiemian/gwc.html"><div class="ljgm">立即购买</div></a>
+			                <div class="sk">
+
+			                </div>
+			            </div>
+			        </div>
+			        <div class="top bottom">
+			            
+			            <div>
+			                <p><span>N°1 运动系列</span> YAYA时尚手环 </p>
+			                <p>N five 1 five perfume series Chanel No.</p>
+			                <p>N°1，自动识别跑步、骑行、攀登、篮球、一系列户外户内活动多中模式，无需额外手动操作</p>
+			                <img src="img/cpxq_15.png" alt="">
+			                <a href="jiemian/gwc.html"><div class="ljgm">立即购买</div></a>
+			                <div class="sk">
+			                </div>
+			            </div>
+			            
+			            <a href="jiemian/cpxq.html">
+			            <img src="img/images/dssy_07.png" alt="">
+			            <img src="img/images/dssy_03.png" alt="">
+			            </a>
+			        </div>
+			    </div>
+			</div>
+
+			<div class="hdzq">
+				<img src="img/images/dssy_15.png" alt="">
+				<div class="wrap">
+					<div class='poster-main carousel' data-setting='{
+	                 "width":1200,
+                     "height":466,
+                     "posterWidth":791,
+                     "posterHeight":466,
+                     "verticalAlign":"middle",
+                     "autoPlay":true,
+                     "speed":3000,
+                     "delay":1300,
+                     "scale":0.45
+	                }'>
+						<div class='poster-btn poster-prev-btn'></div>
+						<ul class='poster-list'>
+							<li class="list-item">
+								<a href="#"><img src="img/images/dssy_19.png" alt=""></a>
+							</li>
+							<li class="list-item">
+								<a href="#"><img src="img/images/dssy_191.png" alt=""></a>
+							</li>
+							<li class="list-item">
+								<a href="#"><img src="img/images/dssy_192.png" alt=""></a>
+							</li>
+							<li class="list-item">
+								<a href="#"><img src="img/images/dssy_192.png" alt=""></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<img src="img/images/dssy_23.png" alt="">
+
+				<div class="con1">
+					<img src="img/images/sy_37.png" alt="">
+					<div class="center">
+						<img src="img/images/sy_43.png" alt="">
+						<div>
+							<p>五色唯美设计彰显英伦格调，时刻充满时尚气息！</p>
+							<p>The collocation of blue and grey reveal British style of<br> fashionable breath<br> The collocation of blue and grey reveal </p>
+						</div>
+					</div>
+					<img src="img/images/sy_40.png" alt="">
+					<img src="img/images/sy_47.png" alt="">
+					<div class="ljgm">加入购物车</div>
+				</div>
+			</div>
+
+			<div class="zh">
+				<div class="con">
+					<img src="img/images/dssy_30.png" alt="">
+					<img src="img/images/dssy_27.png" alt="">
+					<div class="left">
+						<img src="img/images/dssy_34.png" alt="">
+						<div>加入购物车</div>
+					</div>
+					<div class="center">
+						<p>五色唯美设计彰显英伦格调，时刻充满时尚气息！</p>
+						<p>The collocation of blue and grey reveal British style of<br> fashionable breath<br> The collocation of blue and grey reveal </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="ckgd">
+				<a href="jiemian/products.html">查看更多产品</a>
+			</div>
+
+
+
+
+
+			<footer>
+				<img src="img/nav.jpg" alt="">
+				<div class="con">
+					<ul class="cantain">
+						<li>
+							<div>无忧售后</div>
+							<p>Senior coach team withinter national</p>
+							<div class="dd">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+
+							<ul>
+								<li>
+									<img src="img/images/dssy_49.png" alt=""> 7天无忧退换
+								</li>
+								<li>
+									<img src="img/images/dssy_51.png" alt=""> 三日包退
+								</li>
+								<li>
+									<img src="img/images/dssy_39.png" alt=""> 15日保修
+								</li>
+								<li>
+									<img src="img/images/dssy_54.png" alt=""> 一年服务
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div>在线客服</div>
+							<p>Senior coach team </p>
+							<div class="dd">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+							<ul>
+								<li>
+									<img src="img/images/dssy_56.png" alt=""> 7天无忧退换
+								</li>
+								<li>
+									<img src="img/images/dssy_56.png" alt=""> 三日包退
+								</li>
+								<li>
+									<img src="img/images/dssy_56.png" alt=""> 15日保修
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div>支付方法</div>
+							<p>Senior coach team withinter national</p>
+							<div class="dd">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+							<ul>
+								<li>
+									<img src="img/images/dssy_44.png" alt=""> 支付宝支付
+								</li>
+								<li>
+									<img src="img/images/dssy_46.png" alt=""> 第三方支付
+								</li>
+								<li>
+									<img src="img/images/dssy_62.png" alt=""> 在线支付
+								</li>
+								<li>
+									<img src="img/images/dssy_64.png" alt=""> 银行卡支付
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+					<div class="wz">
+						© 2003-2017 TMALL.COM 版权所有<br> 2003-2017 Senior coach team with coach team <br>with team with
+
+					</div>
+				</div>
+			</footer>
+			<script src="js/jquery-1.4.4.min.js"></script>
+			<script src="js/carousel.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript" charset="utf-8">
+				$(function() {
+					Carousel.init($('.carousel'));
+				})
+			</script>
+		</body>
+
+		</html>
